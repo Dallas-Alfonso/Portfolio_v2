@@ -1,14 +1,14 @@
 body{
-    font-family: 'DM Serif Display', serif;
     background-color: #626b63;
+    font-family: 'DM Serif Display', serif;
 }
 
 h1,h3 {
     font-size: 6.2rem;
     font-weight: 490;
     letter-spacing: 9px;
-    word-spacing: 5px;
     line-height: 1;
+    word-spacing: 5px;
     
 }
 
@@ -28,8 +28,39 @@ h1,h3 {
 }
 
 
-.text-container{
+.title-Text-Container{
     position: absolute;
     top: 30%;
 }
 
+.title-Cirlce-Bg{
+    position: absolute;
+    left: 37%;
+    bottom: -15px;
+    width: 470px;
+    height: auto;
+
+}
+
+.tea-Cup{
+    position: absolute;
+    top: 80%;
+    width: 255px;
+    height: auto;
+}
+
+.pen{
+    position: absolute;
+    top: 80%;
+    width: 300px;
+    height: auto;
+}
+
+.book{
+    position: absolute;
+    top: 70%;
+    width: 460px;
+    height: auto;
+    right: 20px;
+    
+}
