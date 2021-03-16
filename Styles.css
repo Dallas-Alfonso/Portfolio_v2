@@ -3,8 +3,33 @@ body{
     background-color: #626b63;
 }
 
+h1,h3 {
+    font-size: 6.2rem;
+    font-weight: 490;
+    letter-spacing: 9px;
+    word-spacing: 5px;
+    line-height: 1;
+    
+}
+
 /* NavBar */
 
 .nav-link {
     font-family: 'DM Serif Display', serif;
 }
+
+/* Title */
+
+.computer-Position-And-Resize {
+    width: 780px;
+    height: auto;
+    position: absolute;
+    top: 30%;
+}
+
+
+.text-container{
+    position: absolute;
+    top: 30%;
+}
+
