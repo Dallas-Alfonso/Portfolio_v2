@@ -29,6 +29,11 @@ h1{
     height: auto;
 }
 
+.pen-resize{
+    width: 100%;
+    height: auto;
+}
+
 .book-resize{
     width: 100%;
     height: auto;
