@@ -3,13 +3,12 @@ body{
     font-family: 'DM Serif Display', serif;
 }
 
-h1,h3 {
-    font-size: 6.2rem;
+h1{
+    font-size: 6.0vw;
+    /* font-size: 6.2rem; */
     font-weight: 490;
     letter-spacing: 9px;
-    line-height: 1;
     word-spacing: 5px;
-    
 }
 
 /* NavBar */
@@ -20,47 +19,18 @@ h1,h3 {
 
 /* Title */
 
-.computer-Position-And-Resize {
-    width: 780px;
-    height: auto;
-    position: absolute;
-    top: 30%;
-}
-
-
-.title-Text-Container{
-    position: absolute;
-    top: 30%;
-}
-
-.title-Cirlce-Bg{
-    position: absolute;
-    left: 37%;
-    bottom: -15px;
-    width: 470px;
-    height: auto;
-
-}
-
-.tea-Cup{
-    position: absolute;
-    top: 80%;
-    width: 255px;
+.computer-resize{
+    width: 100%;
     height: auto;
 }
 
-.pen{
-    position: absolute;
-    top: 80%;
-    width: 300px;
+.teaCup-resize{
+    width: 100%;
     height: auto;
 }
 
-.book{
-    position: absolute;
-    top: 70%;
-    width: 460px;
+.book-resize{
+    width: 100%;
     height: auto;
-    right: 20px;
-    
+    /* transform: rotate(-15deg); */
 }
