@@ -1,6 +1,8 @@
 body{
-    background-color: #626b63;
+    /* background-color: #626b63; */
     font-family: 'DM Serif Display', serif;
+    text-align: center;
+    
 }
 
 
@@ -11,4 +13,16 @@ body{
 }
 
 /* Title */
+ 
+.main-background{
+    background-image: url(images/1.jpg);
+    background-size: cover;
+}
 
+.heading-resize{
+    /* width: 100%;
+    height: auto; */
+object-fit: cover;
+width: 70%;
+height: auto;
+}
