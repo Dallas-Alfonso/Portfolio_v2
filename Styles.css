@@ -1,5 +1,4 @@
 body{
-    /* background-color: #626b63; */
     font-family: 'DM Serif Display', serif;
     text-align: center;
     
@@ -8,9 +7,29 @@ body{
 
 /* NavBar */
 
-.nav-link {
-    font-family: 'DM Serif Display', serif;
+.navbar{
+    padding: 40px 0 0;
 }
+
+.nav-item {
+    padding: 0 65px;
+}
+
+.navbar-brand{
+    padding: 0 0 0 2%;
+}
+
+.nav-link {
+    border-top: solid white;
+    color: white;
+    font-size: 18.5px ;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 3px;   
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+    }
 
 /* Title */
  
@@ -20,9 +39,16 @@ body{
 }
 
 .heading-resize{
-    /* width: 100%;
-    height: auto; */
 object-fit: cover;
 width: 70%;
 height: auto;
+}
+
+.icon-styling{
+    color: white;
+    border-radius: 50%;
+}
+
+.icons-portion{
+    padding: 0 0 150px 0 ;
 }
