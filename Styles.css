@@ -3,13 +3,6 @@ body{
     font-family: 'DM Serif Display', serif;
 }
 
-h1{
-    font-size: 6.0vw;
-    /* font-size: 6.2rem; */
-    font-weight: 490;
-    letter-spacing: 9px;
-    word-spacing: 5px;
-}
 
 /* NavBar */
 
@@ -19,23 +12,3 @@ h1{
 
 /* Title */
 
-.computer-resize{
-    width: 100%;
-    height: auto;
-}
-
-.teaCup-resize{
-    width: 100%;
-    height: auto;
-}
-
-.pen-resize{
-    width: 100%;
-    height: auto;
-}
-
-.book-resize{
-    width: 100%;
-    height: auto;
-    /* transform: rotate(-15deg); */
-}
