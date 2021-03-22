@@ -56,14 +56,32 @@ height: auto;
 /* About */
 
 h2 {
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #000;
-    line-height: 0.1em;
-    margin: 10px 0 20px;
+    font-family: 'DM Serif Display', serif;
+    margin: 100px auto 0;
+    /* text-align: center; */
+    font-size: 30px;
+    /* use max-width to adjust space b/ word and line */
+    max-width: 340px;
+    position: relative;
 }
 
-h2 span {
-    background: #fff;
-    padding: 0 10px;
+h2:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: #191970;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+h2:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: #191970;
+    right: 0;
+    top: 50%;
+    position: absolute;
 }
