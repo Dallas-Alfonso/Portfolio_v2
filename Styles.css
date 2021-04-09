@@ -92,3 +92,24 @@ h2:after {
     width: 100%;
     height: auto;
 }
+
+/* Call To Action */
+
+/* TO FIX.. TWO OF THESE? */
+/* body, html {
+    height: 100%;
+  }
+   */
+  .parallax {
+    /* The image used */
+    background-image: url("images/theCreationOfAdam.jpg");
+  
+    /* Full height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
