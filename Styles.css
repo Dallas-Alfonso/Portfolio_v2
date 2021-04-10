@@ -113,3 +113,10 @@ h2:after {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  /* Peer Reviews */
+
+  .contibutionImg-resize{
+      width: 100%;
+      height:auto;
+  }
