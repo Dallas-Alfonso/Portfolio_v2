@@ -121,4 +121,8 @@ h2:after {
       height:auto;
   }
 
-  
+  .robert-cirillio-resize{
+      width: 10%;
+      border-radius: 100%;
+      margin: 20px;
+  }
