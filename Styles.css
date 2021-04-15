@@ -20,9 +20,9 @@ body{
 }
 
 .nav-link {
-    border-top: solid white;
-    color: white;
-    font-size: 18.5px ;
+    border-top: solid thin white;
+    line-height: .5;
+    font-size: 17.5px ;
     font-family: 'DM Serif Display', serif;
     letter-spacing: 3px;   
 }
