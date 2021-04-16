@@ -8,6 +8,11 @@ body{
 
 /* NavBar */
 
+.nav-bar-image{
+    width: 30px;
+    height: 24px;
+}
+
 .navbar{
     padding: 40px 0 0;
 }
