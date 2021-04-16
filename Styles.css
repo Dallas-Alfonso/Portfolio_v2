@@ -1,5 +1,6 @@
 body{
-    font-family: 'DM Serif Display', serif;
+    /* font-family: 'DM Serif Display', serif; */
+    font-family: 'Cormorant', serif;
     text-align: center;
     
 }
@@ -20,11 +21,12 @@ body{
 }
 
 .nav-link {
-    border-top: solid thin white;
-    line-height: .5;
-    font-size: 17.5px ;
-    font-family: 'DM Serif Display', serif;
-    letter-spacing: 3px;   
+    /* border-top: solid thin white; */
+    line-height: .3;
+    font-size: 19.5px;
+    font-weight: 400;
+    font-family: 'Cormorant', serif;
+    letter-spacing: 3.5px;   
 }
 
 nav .navbar-nav li a{
@@ -46,7 +48,7 @@ nav .navbar-nav li a{
 width: 80%;
 height: auto;
 /* Adjust margin more accurately after all info/designs have been implemented */
-margin: 14% 0 14%;
+margin: 15% 0 14%;
 }
 
 .icon-styling{
