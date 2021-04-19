@@ -78,7 +78,13 @@ margin: 15% 0 14%;
     padding: 0 0 150px 0 ;
 }
 
+.linkedin{
+    padding: 0 20px 0 0;
+}
 
+.email{
+    padding: 0 0 0 20px;
+}
 
 /* About */
 
