@@ -13,6 +13,19 @@ body{
     height: 24px;
 }
 
+.button{
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    padding: 1px 20px;
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 1.0px; 
+    
+}
+
 .navbar{
     padding: 40px 0 0;
 }
