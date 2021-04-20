@@ -1,29 +1,13 @@
 body{
-    /* font-family: 'DM Serif Display', serif; */
     font-family: 'Cormorant', serif;
     text-align: center;
-    
 }
-
 
 /* NavBar */
 
 .nav-bar-image{
     width: 30px;
     height: 24px;
-}
-
-.button{
-    background-color: transparent;
-    border: 1.5px solid white;
-    color: white;
-    padding: 1px 20px;
-    font-size: 21px;
-    font-weight: 400;
-    cursor: pointer;
-    text-decoration: none;
-    letter-spacing: 1.0px; 
-    
 }
 
 .navbar{
@@ -55,27 +39,18 @@ nav .navbar-nav li a{
  
 .main-background{
     background-image: url(images/deadtree.jpg);
-    /* background-size: cover;  */
     background-size: 100% 100%;
-    
- 
 }
 
 .heading-resize{
-/* object-fit: cover; */
 width: 80%;
 height: auto;
 /* Adjust margin more accurately after all info/designs have been implemented */
 margin: 15% 0 14%;
 }
 
-.icon-styling{
-    color: white;
-    border-radius: 50%;
-}
-
 .icons-portion{
-    padding: 0 0 150px 0 ;
+    padding: 0 0 100px 0 ;
 }
 
 .linkedin{
@@ -84,6 +59,14 @@ margin: 15% 0 14%;
 
 .email{
     padding: 0 0 0 20px;
+}
+
+.button1{
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 1.0px; 
+    margin: 0 0 2% 0;
+    padding: 1px 20px;
 }
 
 /* About */
