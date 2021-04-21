@@ -24,11 +24,11 @@ body{
 
 .nav-link {
     /* border-top: solid thin white; */
-    line-height: .3;
+    font-family: 'Cormorant', serif;
     font-size: 19.5px;
     font-weight: 400;
-    font-family: 'Cormorant', serif;
     letter-spacing: 3.5px;   
+    line-height: .3;
 }
 
 nav .navbar-nav li a{
@@ -102,6 +102,16 @@ h2:after {
     position: absolute;
 }
 
+.skills-icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-icons > #col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 /* Projects */
 
 .c-stats-proj{
