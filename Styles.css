@@ -204,14 +204,14 @@ h6{
     max-width: 580px;
 }
 
-.title-btn-pos{
-    text-align: left;
-}
-
 .adj-txt{
+    font-size: 17px;
     line-height: 1;
     margin: 0 0 2% 0;
-    font-size: 17px;
+}
+
+.title-btn-pos{
+    text-align: left;
 }
 
 .title-margin{
@@ -220,12 +220,6 @@ h6{
 
 /* Call To Action */
 
-
-/* TO FIX.. TWO OF THESE? */
-/* body, html {
-    height: 100%;
-  }
-   */
   .parallax {
     /* The image used */
     background-image: url("images/theCreationOfAdam.jpg");
@@ -238,6 +232,15 @@ h6{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .white-text{
+      color: white;
+  }
+
+  .img-size{
+      height: 25px;
+      width: auto;
   }
 
   /* Peer Reviews */
