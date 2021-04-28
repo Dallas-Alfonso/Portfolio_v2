@@ -246,7 +246,7 @@ h6{
   /* Peer Reviews */
 
   .contibutionImg-resize{
-      width: 100%;
+      width: 60%;
       height:auto;
   }
 
@@ -255,3 +255,13 @@ h6{
       border-radius: 100%;
       margin: 20px;
   }
+
+
+  .img-details{
+    height:180px;
+    width: auto;
+}
+
+.carousel-item > h4 {
+    padding: 4% 40%;
+}
