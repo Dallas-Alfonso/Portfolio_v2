@@ -265,3 +265,11 @@ h6{
 .carousel-item > h4 {
     padding: 4% 40%;
 }
+
+.carousel-control-next-icon {
+    background-image: url(images/arrowRight.png);
+}
+
+.carousel-control-prev-icon{
+    background-image: url(images/arrowLeft.png);
+}
