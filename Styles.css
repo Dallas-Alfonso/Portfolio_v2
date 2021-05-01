@@ -121,8 +121,8 @@ h3{
  h4{
     font-size: 25px;
     font-weight: 700;
-    padding: 0 60px 0 0px;
-    text-align: right;
+    /* padding: 0 60px 0 0px; */
+    text-align: left;
 }
 
 /* Used for Sub Heading SUPPLEMENT */
@@ -245,6 +245,7 @@ h6{
 
   /* Peer Reviews */
 
+
   .contibutionImg-resize{
       width: 60%;
       height:auto;
@@ -252,10 +253,10 @@ h6{
 
   .robert-cirillio-resize{
       width: 10%;
-      border-radius: 100%;
-      margin: 20px;
+      /* border-radius: 100%; */
+      margin: 30px;
+      /* float: right; */
   }
-
 
   .img-details{
     height:180px;
@@ -272,4 +273,8 @@ h6{
 
 .carousel-control-prev-icon{
     background-image: url(images/arrowLeft.png);
+}
+
+.pos-last{
+
 }
