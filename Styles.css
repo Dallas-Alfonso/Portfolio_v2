@@ -220,13 +220,17 @@ h6{
 
 /* Call To Action */
 
+  /* icons */
+  .img-size{
+    height: 25px;
+    width: auto;
+}
+
   .parallax {
     /* The image used */
     background-image: url("images/theCreationOfAdam.jpg");
-  
     /* Full height */
     min-height: 300px; 
-  
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -235,43 +239,23 @@ h6{
   }
 
   .white-text{
-      color: white;
-  }
-
-  .img-size{
-      height: 25px;
-      width: auto;
+    color: white;
   }
 
   /* Peer Reviews */
 
-
   .contibutionImg-resize{
-      width: 60%;
-      height:auto;
+    height:auto;
+    width: 60%;
   }
 
   .robert-cirillio-resize{
-      width: 150px;
-      /* border-radius: 100%; */
-      margin: 10px 0 0 0;
-      /* float: right; */
+    margin: 10px 0 0 0;
+    width: 150px; 
   }
-
-  .img-details{
-    height:180px;
-    width: auto;
-}
 
 .carousel-item > h4 {
     padding: 0 20% 0 20%;
     /* padding: 0 3vh 0 3vh; */
 }
 
-.carousel-control-next-icon {
-    background-image: url(images/arrowRight.png);
-}
-
-.carousel-control-prev-icon{
-    background-image: url(images/arrowLeft.png);
-}
