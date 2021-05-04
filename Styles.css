@@ -3,7 +3,6 @@ body{
     text-align: center;
 }
 
-
 /* NavBar */
 
 
@@ -39,23 +38,11 @@ nav .navbar-nav li a{
 
 
 
-    .overall-spacing{
-        padding: 0 10em;
-    }
+.overall-spacing{
+    padding: 0 10em;
+}
 
 /* Title */
-
-/* .button1{
-    font-size: 1em;
-    font-weight: 400;
-    letter-spacing: 1.0px; 
-    margin: 0 0 2% 0;
-    padding: 1px 20px;
-} */
-
-.email{
-    padding: 0 0 0 20px;
-}
 
 .heading-resize{
     width: 60%;
@@ -64,20 +51,24 @@ nav .navbar-nav li a{
     margin: 12em 0 7em;
 }
 
-.icons-portion{
-    padding: 0 0 12em 0 ;
+/* left and right margin */
+.email{
+    padding: 0 0 0 20px;
 }
-
 /*refractor with email. combine in one div*/
 .linkedin{
     padding: 0 20px 0 0;
+}
+
+/*up and down margin*/
+.icons-portion{
+    padding: 0 0 12em 0 ;
 }
 
 .main-background{
     background-image: url(images/deadtree.jpg);
     background-size: 100% 100%;
 }
-
 
 /* About */
 
