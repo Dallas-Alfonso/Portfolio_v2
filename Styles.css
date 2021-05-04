@@ -21,13 +21,13 @@ body{
 }
 
 .nav-item {
-    padding: 0 65px;
+    padding: 0 2.6em;
 }
 
 .nav-link {
     /* border-top: solid thin white; */
     font-family: 'Cormorant', serif;
-    font-size: 19.5px;
+    font-size: 1.0em; /*17px*/
     font-weight: 400;
     letter-spacing: 3.5px;   
     line-height: .3;
@@ -37,31 +37,38 @@ nav .navbar-nav li a{
     color: white !important;
     }
 
+
+
+    .overall-spacing{
+        padding: 0 10em;
+    }
+
 /* Title */
 
-.button1{
-    font-size: 21px;
+/* .button1{
+    font-size: 1em;
     font-weight: 400;
     letter-spacing: 1.0px; 
     margin: 0 0 2% 0;
     padding: 1px 20px;
-}
+} */
 
 .email{
     padding: 0 0 0 20px;
 }
 
 .heading-resize{
-    width: 80%;
+    width: 60%;
     height: auto;
     /* Adjust margin more accurately after all info/designs have been implemented */
-    margin: 15% 0 14%;
+    margin: 12em 0 7em;
 }
 
 .icons-portion{
-    padding: 0 0 100px 0 ;
+    padding: 0 0 12em 0 ;
 }
 
+/*refractor with email. combine in one div*/
 .linkedin{
     padding: 0 20px 0 0;
 }
@@ -222,7 +229,7 @@ h6{
 
   /* icons */
   .img-size{
-    height: 25px;
+    height: 1.2em;
     width: auto;
 }
 
