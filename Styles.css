@@ -131,7 +131,7 @@ h6{
     font-size: 1.3em;
     letter-spacing: 1.0px; 
     line-height: .5;
-    margin: 0 0 100px 0;
+    margin: 0 0 50px 0;
 }
 
 /* Use for all info/witing part PARAGRAPH  */
@@ -157,11 +157,15 @@ h6{
 .skills-icons > #col {
     display: flex;
     flex-direction: row;
-    font-size: 21px;
+    font-size: 1.0em; /*21px*/
     font-weight: 600;
     justify-content: space-around;
 }
 
+.skills-icons-img{
+    height: 3.8em;
+    width: auto;
+}
 
 /* Projects */
 
