@@ -39,15 +39,18 @@ nav .navbar-nav li a{
 
 
 .overall-spacing{
-    padding: 0 10em;
+    padding: 0 11em;
 }
 
 /* Title */
 
+a{
+    text-decoration: none;
+}
+
 .heading-resize{
     width: 60%;
     height: auto;
-    /* Adjust margin more accurately after all info/designs have been implemented */
     margin: 12em 0 7em;
 }
 
@@ -75,14 +78,12 @@ nav .navbar-nav li a{
 
 /* use for SUB HEADING */
 h2 {
-    margin: 100px auto 0;
-
-    letter-spacing: 4px;
-    font-size: 50px;
+    margin: .9em auto 0;
+    letter-spacing: 3px;
+    font-size: 2.3em;
     font-weight: 500;
-    
     /* use max-width to adjust space b/ word and line */
-    max-width: 400px;
+    max-width: 385px;
     position: relative;
 }
 
@@ -91,7 +92,7 @@ h2:before {
     display: block;
     width: 130px;
     height: 2px;
-    background: #191970;
+    border-bottom: 1px solid black;
     left: 0;
     top: 50%;
     position: absolute;
@@ -100,8 +101,8 @@ h2:after {
     content: "";
     display: block;
     width: 130px;
-    height: 2px;
-    background: #191970;
+    height: 2px; 
+    border-bottom: 1px solid black;
     right: 0;
     top: 50%;
     position: absolute;
@@ -110,8 +111,8 @@ h2:after {
 /* use for SUB_SUB HEADINGS */
 h3{
     font-weight: 500;
-    font-size: 42px;
-    letter-spacing: 1.0px;  
+    font-size: 1.9em;
+    letter-spacing: 1.3px;  
     margin: 0 0 40px 0;
 }
 
@@ -127,7 +128,7 @@ h3{
 /* change into PARAGRAPH */
 h6{
     font-weight: 400;
-    font-size: 21px;
+    font-size: 1.3em;
     letter-spacing: 1.0px; 
     line-height: .5;
     margin: 0 0 100px 0;
@@ -135,11 +136,16 @@ h6{
 
 /* Use for all info/witing part PARAGRAPH  */
 .greetings-text{ 
-    font-size: 21px;
+    font-size: 1.3em;
     font-weight: 400;
     letter-spacing: 1.0px; 
     padding: 0 60px 0 0px;
     text-align: right;
+}
+
+.sub-heading{
+    font-size: 1.3em;
+    font-weight: 900;
 }
 
 .skills-icons{
