@@ -174,31 +174,57 @@ h6{
 
 /* Projects */
 
+.text-img{
+    color: white;
+    font-size: 1.6em;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.image-overlay-container{
+position: relative;
+/* width: 50%; */
+margin:0 0 18px 0;
+}
+
 .overlay{
     position: absolute;
-    bottom: 100%;
+    bottom: 0;
     left: 0;
     right: 0;
-    background-color: #008CBA;
+    background-color: #000000;
     overflow: hidden;
-    width: 100%;
-    height:0;
+    width: 0;
+    height:100%;
     transition: .5s ease;
 }
 
-.col-lg-4:hover .overlay {
-    bottom: 0;
-    height: 100%;
-      opacity: .50;
+.image-overlay-container:hover .overlay {
+    /* bottom: 0;
+    height: 100%; */
+
+    width: 100%;
+    opacity: .50;
   }
 
 #projects > h2{
     max-width: 450px;
 }
 
+.btn-white{
+    border-radius: .1em;
+}
+
 .btn-black{
     background-color: #212529;
-    margin: 0 3% 0 0;
+    margin: 0 3.8% 0 0;
+    border-radius: .1em;
 }
 
 .btn-black:hover{
@@ -221,11 +247,13 @@ h6{
 }
 
 .proj-text{
-    font-size: 21px;
-    font-weight: 400;
-    letter-spacing: 1.0px; 
-    margin: 0 20% 0 0;
+    font-size: 1.3em;
+    /* font-size: 21px; */
+    /* font-weight: 200; */
+    letter-spacing: .7px; 
+    /* margin: 0 20% 0 0; */
     text-align: left;
+    margin: 20px 0 0 0;
 }
 
 /* Other Note Worthy Projects  */
@@ -238,6 +266,7 @@ h6{
     font-size: 17px;
     line-height: 1;
     margin: 0 0 2% 0;
+    font-weight: 700;
 }
 
 .title-btn-pos{
