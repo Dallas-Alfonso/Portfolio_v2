@@ -282,6 +282,19 @@ margin:0 0 18px 0;
 /* Call To Action */
 
   /* icons */
+
+  .white-text-action{
+
+}
+
+  .icons-portion-action{
+    padding: 0 0 1em 0 ;
+}
+
+  .button-specs{
+      margin: 0 0 4% 0;
+  }
+
   .img-size{
     height: 1.2em;
     width: auto;
