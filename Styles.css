@@ -284,8 +284,9 @@ margin:0 0 18px 0;
   /* icons */
 
   .white-text-action{
-
-}
+      padding: 2em 0 0 0;
+      color: white;
+  }
 
   .icons-portion-action{
     padding: 0 0 1em 0 ;
@@ -321,6 +322,7 @@ margin:0 0 18px 0;
   .contibutionImg-resize{
     height:auto;
     width: 60%;
+    margin: 4em 0 ;
   }
 
   .robert-cirillio-resize{
@@ -333,3 +335,7 @@ margin:0 0 18px 0;
     /* padding: 0 3vh 0 3vh; */
 }
 
+.text-adjust-peer{
+    font-size: 1.3em;
+    font-weight: 100;
+}
