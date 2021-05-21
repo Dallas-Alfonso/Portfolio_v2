@@ -20,7 +20,7 @@ body{
 }
 
 .nav-item {
-    padding: 0 2.6em;
+    padding: 0 2.5em;
 }
 
 .nav-link {
@@ -39,7 +39,10 @@ nav .navbar-nav li a{
 
 
 .overall-spacing{
-    padding: 0 11em;
+    /* padding: 0 11em; */
+    width: 90em;
+    max-width: calc(100% - 4em);
+    margin: 0 auto;
 }
 
 /* Title */
