@@ -12,6 +12,7 @@ body{
 
 .navbar-brand{
     padding: 0 0 0 2%;
+    font-size: 1.35em;
 }
 
 .nav-bar-image{
@@ -57,6 +58,14 @@ a{
     margin: 12em 0 7em;
 }
 
+@media screen and (max-width: 1280px){
+    img.heading-resize{
+        width: 90%;
+        height: auto;
+        margin: 5.5em 0 8em;
+    }
+}
+
 /* left and right margin */
 .email{
     padding: 0 0 0 20px;
@@ -76,8 +85,20 @@ a{
     background-size: 100% 100%;
 }
 
+@media screen and (max-width: 1280px){
+    section.main-background{
+        background-size: cover;
+    
+    }
+}
 /* About */
 
+@media screen and (max-width: 1280px){
+    h3.media-blank{
+        display: none;
+    
+    }
+}
 
 /* use for SUB HEADING */
 h2 {
@@ -144,6 +165,13 @@ h6{
     letter-spacing: 1.0px; 
     padding: 0 60px 0 0px;
     text-align: right;
+}
+
+@media screen and (max-width: 1280px){
+    p.greetings-text{
+        text-align: center;
+        padding: 0 0px 0 0px;
+    }
 }
 
 .sub-heading{
