@@ -325,6 +325,8 @@ margin:0 0 18px 0;
       color: white;
       margin: 0 0 .4em 0;
       font-weight: 900;
+     
+      
   }
 
   .icons-portion-action{
@@ -355,6 +357,10 @@ margin:0 0 18px 0;
   .white-text{
     color: white;
     margin: 0 0 0 0;
+    font-size: 1.18em;
+    font-weight: 900;
+    letter-spacing: 2.0px; 
+    line-height: 1.5;
   }
 
   /* Peer Reviews */
@@ -364,6 +370,12 @@ margin:0 0 18px 0;
     width: 60%;
     margin: 4em 0 ;
   }
+
+  @media screen and (max-width: 1280px){
+    img.contibutionImg-resize{
+        width: 100%;
+    }
+}
 
   .robert-cirillio-resize{
     margin: 10px 0 0 0;
