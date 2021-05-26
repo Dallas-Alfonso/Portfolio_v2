@@ -41,7 +41,7 @@ nav .navbar-nav li a{
 
 .overall-spacing{
     /* padding: 0 11em; */
-    width: 90em;
+    width: 75em;
     max-width: calc(100% - 4em);
     margin: 0 auto;
 }
@@ -92,6 +92,14 @@ a{
     }
 }
 /* About */
+
+
+@media screen and (max-width: 1280px){
+    h3.media-space{
+        margin: 5px 0 20px 0;
+    
+    }
+}
 
 @media screen and (max-width: 1280px){
     h3.media-blank{
@@ -171,6 +179,7 @@ h6{
     p.greetings-text{
         text-align: center;
         padding: 0 0px 0 0px;
+        font-size: 1.2em;
     }
 }
 
@@ -288,7 +297,13 @@ margin:0 0 18px 0;
     font-size: 1.3em;
     letter-spacing: .7px; 
     text-align: left;
-    margin: 20px 0 0 0;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 1280px){
+    p.proj-text{
+    font-size: 1.2em;
+    }
 }
 
 /* Other Note Worthy Projects  */
@@ -402,4 +417,10 @@ margin:0 0 18px 0;
 .text-adjust-peer{
     font-size: 1.3em;
     font-weight: 100;
+}
+
+@media screen and (max-width: 1280px){
+    h4.text-adjust-peer{
+        font-size: 1.2em;
+    }
 }
