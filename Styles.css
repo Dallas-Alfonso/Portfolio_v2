@@ -21,7 +21,7 @@ body{
 }
 
 .nav-item {
-    padding: 0 2.5em;
+    padding: 0 1.9em;
 }
 
 .nav-link {
@@ -168,7 +168,7 @@ h6{
 
 /* Use for all info/witing part PARAGRAPH  */
 .greetings-text{ 
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 400;
     letter-spacing: 1.0px; 
     padding: 0 60px 0 0px;
@@ -179,7 +179,7 @@ h6{
     p.greetings-text{
         text-align: center;
         padding: 0 0px 0 0px;
-        font-size: 1.2em;
+        
     }
 }
 
@@ -294,17 +294,17 @@ margin:0 0 18px 0;
 }
 
 .proj-text{
-    font-size: 1.3em;
+    font-size: 1.18em;
     letter-spacing: .7px; 
     text-align: left;
     margin: 20px 0;
 }
 
-@media screen and (max-width: 1280px){
+/* @media screen and (max-width: 1280px){
     p.proj-text{
     font-size: 1.2em;
     }
-}
+} */
 
 /* Other Note Worthy Projects  */
 
@@ -313,7 +313,7 @@ margin:0 0 18px 0;
 }
 
 .adj-txt{
-    font-size: 17px;
+    font-size: 14px;
     line-height: 1;
     margin: 0 0 2% 0;
     font-weight: 900;
@@ -348,7 +348,7 @@ margin:0 0 18px 0;
   /* icons */
 
   .white-text-action{
-      padding: 2em 0 0 0;
+      padding: .4em 0 0 0;
       color: white;
       margin: 0 0 .4em 0;
       font-weight: 900;
@@ -373,7 +373,7 @@ margin:0 0 18px 0;
     /* The image used */
     background-image: url("images/theCreationOfAdam.jpg");
     /* Full height */
-    min-height: 300px; 
+    min-height: 264px; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -415,7 +415,7 @@ margin:0 0 18px 0;
 }
 
 .text-adjust-peer{
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 100;
 }
 
