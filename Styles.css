@@ -33,6 +33,13 @@ body{
     line-height: .3;
 }
 
+.nav-link:hover {
+    background-color:rgb(0, 0, 0);
+    border-radius: 6%;
+    
+
+}
+
 nav .navbar-nav li a{
     color: white !important;
     }
@@ -68,11 +75,11 @@ a{
 
 /* left and right margin */
 .email{
-    padding: 0 0 0 20px;
+    margin: 0 0 0 20px;
 }
 /*refractor with email. combine in one div*/
 .linkedin{
-    padding: 0 20px 0 0;
+    margin: 0 20px 0 0;
 }
 
 /*up and down margin*/
@@ -368,6 +375,17 @@ margin:0 0 18px 0;
     height: 1.2em;
     width: auto;
 }
+  .img-size:hover{
+    background-color: white;    
+    border-radius: 100%;
+}
+
+/* FIGURE THIS ONE  OUT!!! */
+.icons-portion-action > .img-size:hover{
+    background-color: black;    
+    border-radius: 100%;
+}
+
 
   .parallax {
     /* The image used */
