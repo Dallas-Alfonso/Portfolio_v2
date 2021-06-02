@@ -74,6 +74,12 @@ a{
     }
 }
 
+@media screen and (max-width: 498px){
+    img.heading-resize{
+        width: 98%;
+    }
+}
+
 /* left and right margin */
 .email{
     margin: 0 0 0 20px;
@@ -148,6 +154,18 @@ h2:after {
     position: absolute;
 }
 
+@media screen and (max-width: 437px){
+    h2:before{
+        width: 28%; /* 72px  */
+    }
+}
+
+@media screen and (max-width: 437px){
+    h2:after{
+        width: 28%; /* 72px  */
+    }
+}
+
 /* use for SUB_SUB HEADINGS */
 h3{
     font-weight: 700;
@@ -187,6 +205,13 @@ h6{
     p.greetings-text{
         text-align: center;
         padding: 0 0px 0 0px;
+        
+    }
+}
+
+@media screen and (max-width: 498px){
+    p.greetings-text{
+        font-size: 1.05em;
         
     }
 }
@@ -308,11 +333,11 @@ margin:0 0 18px 0;
     margin: 20px 0;
 }
 
-/* @media screen and (max-width: 1280px){
+@media screen and (max-width: 498px){
     p.proj-text{
-    font-size: 1.2em;
+    font-size: 1.03em;
     }
-} */
+}
 
 /* Other Note Worthy Projects  */
 
@@ -332,6 +357,12 @@ margin:0 0 18px 0;
     h6.adj-txt{
         font-size: 15px;
         font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 498px){
+    h6.adj-txt{
+        margin: 8% 0 2% 0;
     }
 }
 
@@ -409,6 +440,12 @@ margin:0 0 18px 0;
     line-height: 1.5;
   }
 
+  @media screen and (max-width: 372px){
+    h6.white-text{
+        font-size: .93em;
+    }
+}
+
   /* Peer Reviews */
 
   .contibutionImg-resize{
@@ -441,5 +478,11 @@ margin:0 0 18px 0;
 @media screen and (max-width: 1280px){
     h4.text-adjust-peer{
         font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 498px){
+    h4.text-adjust-peer{
+        font-size: 1.05em;
     }
 }
