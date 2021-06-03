@@ -66,7 +66,7 @@ a{
     margin: 12em 0 7em;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 991px){
     img.heading-resize{
         width: 90%;
         height: auto;
@@ -115,12 +115,12 @@ a{
     }
 }
 
-@media screen and (max-width: 1280px){
+/* @media screen and (max-width: 1280px){
     h3.media-blank{
         display: none;
     
     }
-}
+} */
 
 /* use for SUB HEADING */
 h2 {
@@ -171,7 +171,8 @@ h3{
     font-weight: 700;
     font-size: 1.3em;
     letter-spacing: 1.3px;  
-    margin: 0 0 40px 0;
+    margin: 0 0 9px 0;
+    text-decoration: 1px rgb(114, 114, 114) underline;
 }
 
  /* use for SUB_SUB_SUB HEADINGS */
@@ -205,9 +206,49 @@ h6{
     p.greetings-text{
         text-align: center;
         padding: 0 0px 0 0px;
+    }
+}
+
+/* @media screen and (max-width: 991px){
+    p.greetings-text{
+        padding: 0 0px 0 0px;
+        text-align: center;
         
     }
 }
+
+@media screen and (min-width: 992px){
+    p.greetings-text{
+        padding: 0 5px 0 0px;
+        text-align: right;
+        
+    }
+} */
+
+/* @media screen and (max-width: 1199px){
+    p.greetings-text{
+        padding: 0 60px 0 0px;
+        text-align: right;
+        
+    }
+} */
+
+/*
+@media screen and (max-width: 991px){
+    p.greetings-text{
+        padding: 0 0px 0 0px;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (min-width: 992px){
+    p.greetings-text{
+        padding: 0 5px 0 0px;
+        
+    }
+}
+*/
 
 @media screen and (max-width: 498px){
     p.greetings-text{
@@ -391,6 +432,7 @@ margin:0 0 18px 0;
       color: white;
       margin: 0 0 .4em 0;
       font-weight: 900;
+      text-decoration: none;
      
       
   }
