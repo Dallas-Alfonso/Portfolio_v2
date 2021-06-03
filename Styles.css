@@ -455,7 +455,7 @@ margin:0 0 18px 0;
 }
 
 /* FIGURE THIS ONE  OUT!!! */
-.icons-portion-action > .img-size:hover{
+    .icons-portion-action > a > .img-size:hover{
     background-color: black;    
     border-radius: 100%;
 }
