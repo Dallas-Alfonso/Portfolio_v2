@@ -437,7 +437,7 @@ margin:0 0 18px 0;
     /* The image used */
     background-image: url("images/theCreationOfAdam.jpg");
     /* Full height */
-    min-height: 264px; 
+    min-height: 235px; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
